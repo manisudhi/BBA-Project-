@@ -8,7 +8,7 @@ const root = document.getElementById('root');
 
 const tree = (
   <React.StrictMode>
-    <BrowserRouter basename={import.meta.env.BASE_URL}>
+    <BrowserRouter basename="/BBA-Project-">
       <App />
     </BrowserRouter>
   </React.StrictMode>
