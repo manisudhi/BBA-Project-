@@ -7,7 +7,12 @@ export default function Footer() {
       <div className="wrap">
         <div className="footer-grid">
           <div>
-            <img src="/logo-light.png" alt={company.name} width="212" height="52" />
+            <img
+              src={`${import.meta.env.BASE_URL}logo-light.png`}
+              alt={company.name}
+              width="212"
+              height="52"
+              />
             <p>{company.blurb}</p>
           </div>
 
