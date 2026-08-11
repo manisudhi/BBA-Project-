@@ -59,7 +59,12 @@ export default function Header({ ctaLabel = 'Book a consultation', ctaTo = '/con
         <div className="wrap">
           <nav className="nav" aria-label="Primary">
             <Link className="brand" to="/" aria-label={`${company.name} — home`}>
-              <img src="/logo.png" alt={company.name} width="212" height="52" />
+              <img 
+                src={`${import.meta.env.BASE_URL}logo.png`}
+                alt={company.name}
+                width="212"
+                height="52"
+              />
             </Link>
 
             <ul className="nav-links">
